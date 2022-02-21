@@ -18,10 +18,10 @@ func mySqrt(x int) int {
 }
 
 // 牛顿迭代
-func mySqrt(x int) int {
-	y := x
-	for y*y > x {
-		y = (y + x/y) / 2
-	}
-	return y
-}
+//func mySqrt(x int) int {
+//	y := x
+//	for y*y > x {
+//		y = (y + x/y) / 2
+//	}
+//	return y
+//}
