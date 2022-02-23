@@ -1,8 +1,10 @@
 package Pointer
 
-import "github.com/P-Jstone/LeetCode_Go/structure"
+import (
+	"github.com/P-Jstone/LeetCode_Go/Structure"
+)
 
-type ListNode = structure.ListNode
+type ListNode = Structure.ListNode
 
 func detectCycle(head *ListNode) *ListNode {
 	fast, slow := head, head
